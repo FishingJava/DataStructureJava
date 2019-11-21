@@ -1,4 +1,4 @@
-package com.practice;
+package com.hackerRank;
 
 public class RemoveDupFromSinglyLinkedList {
 	public static void main(String[] args) {  
