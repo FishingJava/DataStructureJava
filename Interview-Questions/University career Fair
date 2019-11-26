@@ -1,0 +1,9 @@
+Sam is part of the organizing team arranging the university's career fair and has list of companies 
+and their respective arrival times and durations. due to university-wide budget cuts. there is only one stage/dis
+ available on the entire campus so only one event can occur at a time. Given each company's arrival time and the duration 
+ they will stay. determine the maximum number of promotional events that can hosted during the career fair. 
+ 
+ Example 
+   n = 5
+   arrival = [1,3,3,5,7]
+   duration = [2,2,1,2,1]  
