@@ -3,8 +3,9 @@ package com.interview;
 public class reversString {
 
 	public static void main(String[] args) {
-		System.out.println(reverseWord("Gashaw"));
-		String[] result = reverseStatement("the quick brown fox jumps over the laze dog");
+		System.out.println(reverseWord(" deserver"));
+		System.out.println(reverseUsingjavaApi("desrever"));
+		String[] result = reverseStatement("won m'I  desrever kcab");
 		for (int i = 0; i < result.length; i++) {
 			System.out.print(result[i] + " ");
 		}
@@ -15,7 +16,7 @@ private static String reverseWord(String word) {
 		char  c = word.charAt(word.length() - i);
 		builder.append(c);
 	}
-//	System.out.print(builder.toString());
+	
 	return builder.toString();
 }
  private static String[] reverseStatement(String statment) {
@@ -28,5 +29,12 @@ private static String reverseWord(String word) {
 	  
 	 return ret;
 	 
+ }
+ 
+ private static String reverseUsingjavaApi(String str) {
+	//short way of reversing a string using java Api
+		String reversed = new StringBuilder(str).reverse().toString();
+	 
+		return reversed;
  }
 }
