@@ -3,9 +3,11 @@ package com.interview;
 public class reversString {
 
 	public static void main(String[] args) {
-		System.out.println(reverseWord(" deserver"));
-		System.out.println(reverseUsingjavaApi("desrever"));
+		System.out.println("Reversed string using for loop  : " +  reverseWord(" deserver"));
+		System.out.println("Reversed string using javabuilder Api : " +  reverseUsingjavaApi("desrever"));
 		String[] result = reverseStatement("won m'I  desrever kcab");
+		System.out.println();
+		System.out.println("Reversed space separted string using forloop, not java Api : ");
 		for (int i = 0; i < result.length; i++) {
 			System.out.print(result[i] + " ");
 		}
@@ -22,11 +24,14 @@ private static String reverseWord(String word) {
  private static String[] reverseStatement(String statment) {
 	 String [] arr = statment.split(" ");
 	 String [] ret = new String [arr.length];
-	 for(int i = 0; i < arr.length; i ++) {
+	 /*for(int i = 0; i < arr.length; i ++) {
 		 String revString = reverseWord(arr[i]);
 		 ret[i] = revString;
+	 }*/
+	 for(int i = 0; i < arr.length; i ++) {
+	 String revrsedString = reverseUsingjavaApi(arr[i]);
+	 ret[i] = revrsedString;
 	 }
-	  
 	 return ret;
 	 
  }
