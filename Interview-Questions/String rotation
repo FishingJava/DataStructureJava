@@ -1,0 +1,2 @@
+assume you have a method isSubstring which checks if one word is a substring of another. given two Strings s1 and s2
+write a code to check if s2 is a rotation of s1 using only one call to isSubstring(Example "waterBottle" is a rotation of "erbottlewat")
