@@ -1,0 +1,4 @@
+pair with sum: design an algorithm to find all pairs of integer with in an arry which sum to a specific value.
+if you trying to find pair of numbers that sums to Z. the complement of x will be Z-x example if you trying to find 
+a pair of a number that sum to 12, the complement of -5 would be 17. your code should be work for every input don't put one target 
+value to do your code. 
